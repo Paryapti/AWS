@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub User Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>GitHub User Profile</h1>
+    <input type="text" id="username" placeholder="Enter GitHub username">
+    <button id="fetchButton">Fetch Profile</button>
+
+    <div class="profile" id="profileContainer">
+        <!-- Profile data will be inserted here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
